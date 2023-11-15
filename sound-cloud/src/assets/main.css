@@ -1,0 +1,94 @@
+/* custom font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+/* variables */
+:root {
+    --primary: #ea8440;
+    --secondary: #fff5ef;
+    --text : #4f515a;
+    --warning: #a41439;
+}
+
+/* base style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color: var(--text);
+}
+body {
+    background: #fafafa;
+}
+a {
+    text-decoration: none;
+}
+
+/* button */
+button, .btn {
+    margin: 6px 0px;
+    background: var(--secondary);
+    color: var(--primary);
+    border-radius: 8px;
+    border: 0;
+    padding: 8px 12px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    width: 70%
+}
+.btn-link{
+    margin: 6px 0px;
+    background: var(--secondary);
+    color: var(--primary);
+    border-radius: 8px;
+    border: 0;
+    padding: 8px 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.btn-link:hover {
+    background: var(--primary);
+    color: white
+}
+button:disabled {
+    opacity: 0.5;
+    color: var(--primary);
+    background: var(--secondary);
+    cursor: not-allowed;
+}
+
+/* forms */
+.title{
+    text-align: center;
+}
+
+.form, form {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px rgba(50,50,50,0.05);
+    border: 1px solid  var(--secondary);
+    background: white;
+}
+
+input, textarea {
+    border: 0;
+    border-bottom: 1px solid var(--secondary);
+    padding: 10px;
+    outline: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+/* error text */
+.error {
+    color: var(--warning);
+    font-size: 14px;
+    margin: 16px 0;
+}
+
