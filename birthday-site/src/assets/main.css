@@ -1,0 +1,18 @@
+:root {
+    --normal-font: 'M PLUS Rounded 1c', sans-serif;
+    --beauty-outline:'Rubik Vinyl', cursive;
+    --beauty-fill:'Rubik Gemstones', cursive;
+    --beauty-pop: 'Rubik Puddles', cursive;
+    --beauty-lovely: 'Sacramento', cursive;
+    --beauty-modern: 'Caveat', cursive;
+    --arial-font: 'Source Serif Pro', serif;
+    --black:  #5d54a4;
+    --white: #ffffff;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
